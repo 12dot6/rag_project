@@ -1,7 +1,7 @@
 # src/document_processor.py
 import os
 # type: ignore
-from langchain.document_loaders import PyPDFLoader, Docx2txtLoader, UnstructuredExcelLoader
+from langchain.document_loaders import PyPDFLoader, Docx2txtLoader, UnstructuredExcelLoader 
 from typing import List
 
 class DocumentProcessor:

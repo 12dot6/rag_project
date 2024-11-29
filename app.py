@@ -1,8 +1,12 @@
 # app.py
+import sys
 import streamlit as st 
 st.set_page_config(layout="wide")  # Ensures proper layout
 import os
-from dotenv import load_dotenv # type: ignore
+from pathlib import Path
+# Add the project root to Python path
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from dotenv import load_dotenv 
 from src.rag_system import RAGSystem
 
 # Load environment variables

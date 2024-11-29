@@ -1,6 +1,6 @@
 # src/text_processor.py
-from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain.embeddings import OpenAIEmbeddings
+from langchain.text_splitter import RecursiveCharacterTextSplitter 
+from langchain.embeddings import OpenAIEmbeddings 
 from typing import List
 
 class TextProcessor:
